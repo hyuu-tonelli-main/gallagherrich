@@ -163,24 +163,19 @@ export class Telegraf<C extends Context = Context> extends Composer<C> {
     const dim    = '\x1b[2m'
     const cyan   = '\x1b[36m'
     const white  = '\x1b[37m'
-    console.log(`
-${cyan}${bold}   ╭─╮${reset}
-${cyan}${bold}   │ │${reset}
-${cyan}${bold}   ╰┬╯${reset}
-${cyan}${bold}    │         ╭─╮${reset}
-${cyan}${bold}   ╭┴╮   ╭────┤ │${reset}
-${cyan}${bold}   │ ├───╯    ╰─╯${reset}
-${cyan}${bold}   │ ├───╮${reset}
-${cyan}${bold}   ╰┬╯   │    ╭─╮${reset}
-${cyan}${bold}    │    ╰────┤ │${reset}
-${cyan}${bold}   ╭┴╮        ╰─╯${reset}
-${cyan}${bold}   │ │${reset}
-${cyan}${bold}   ╰─╯${reset}
-${reset}
-${bold}${white}  @icanseeuanywhere/telekaf${reset}  ${dim}v4.16.8${reset}
-${reset}
-${dim}  thanks for using my package${reset}
-${dim}  ~kafk6  ${cyan}t.me/kafk6${reset}
+    console.log(`  
+${cyan}${bold}   ╭───╮     ╭───╮${reset}  
+${cyan}${bold}   │   ╰──┬──╯   │${reset}  
+${cyan}${bold}   ╰──┬─╮ │ ╭─┬──╯${reset}  
+${cyan}${bold}      │ ╰─┼─╯ │${reset}  
+${cyan}${bold}   ╭──┴─╮ │ ╭─┴──╮${reset}  
+${cyan}${bold}   │   ╭──┴──╮   │${reset}  
+${cyan}${bold}   ╰───╯     ╰───╯${reset}  
+${reset}  
+${bold}${white}  @sugansociety/gallagherrich${reset}  ${dim}v4.16.8${reset}  
+${reset}  
+${dim}  thanks for using my package${reset}  
+${dim}  ~SuganSocietyTech  ${cyan}t.me/suganzi${reset}  
 `)
   }
 
