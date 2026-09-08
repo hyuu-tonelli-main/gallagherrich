@@ -67,7 +67,7 @@
     "session.*"
   ],
   "bin": {
-    "telekaf": "lib/cli.mjs"
+    "gallagherrich": "lib/cli.mjs"
   },
   "scripts": {
     "build": "tsc && npm run expose",
